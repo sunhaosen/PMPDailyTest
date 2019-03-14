@@ -9,7 +9,7 @@ function flower($n)
 			continue;
 		}
 		$a = floor($i/100);
-		$b = floor(($i%10)/10);
+		$b = floor(($i%100)/10);
 		$c = $i%10;
 		$sum = pow($a, 3) + pow($b, 3) + pow($c, 3);
 		if ($sum == $i) 
